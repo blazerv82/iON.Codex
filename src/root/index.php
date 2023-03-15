@@ -1,6 +1,6 @@
 <?php require_once('app.core/header.php'); ?>
 
-<?php get_tile('main_nav', 'app.tile/website/navigation'); ?>
+<?php get_tile('main_nav', 'app.tile/website/navigation', '.php'); ?>
     
 <main class="container d-flex-column">
 

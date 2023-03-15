@@ -3,9 +3,9 @@
     class item {
 
         protected $id;
+        protected $title;
         protected $content;
-        protected $tags;
-        protected $time_created;
+        protected $created;
 
         public function __get($var){
 

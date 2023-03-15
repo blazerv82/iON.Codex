@@ -27,8 +27,8 @@
                 
                 <div class="theme-light tile px-large py-large t-center round-medium">
                     <?php echo $content; ?>
-                    <div class="tile-body mb-small"><?php echo $single->tags; ?></div>
-                    <div class="tile-footer"><?php echo $single->time_created; ?></div>
+                    <div class="tile-body mb-small"><?php echo $single->title; ?></div>
+                    <div class="tile-footer"><?php echo $single->created; ?></div>
                 </div>
 
             <?php endforeach;
@@ -43,9 +43,7 @@
                         <td class="t-center t-font-heavy">ID</td>
                         <td class="t-center t-font-heavy">Title</td>
                         <td class="t-center t-font-heavy">Content</td>
-                        <td class="t-center t-font-heavy">Tags</td>
                         <td class="t-center t-font-heavy">Time Created</td>
-                        <td class="t-center t-font-heavy">Last Updated</td>
                     </tr>
                 </thead> 
                     <tbody>
@@ -82,18 +80,8 @@
                     <td class="border-thin-b"><?php echo $single->id; ?></td>
                     <td class="border-thin-b"><?php echo $single->title; ?></td>
                     <td class="border-thin-b"><?php echo $single->content; ?></td>
-                    <td class="border-thin-b"><?php echo $single->tags; ?></td>
-                    <td class="border-thin-b"><?php echo $single->time_created; ?></td>
-                    <td class="border-thin-b"><?php echo $single->last_updated; ?></td>
+                    <td class="border-thin-b"><?php echo $single->created; ?></td>
                 </tr>
-                
-                <!-- <div class="theme-light d-flex-row px-large py-large t-center round-medium">
-                    Codex ID: <?php echo $single->id; ?>
-                    Title: <?php echo $single->title; ?>
-                    <?php echo $content; ?>
-                    <?php echo $single->tags; ?>
-                    <?php echo $single->time_created; ?>
-                </div> -->
 
             <?php endforeach; ?>
         

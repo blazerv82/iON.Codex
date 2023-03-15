@@ -6,7 +6,7 @@ $(document).ready(function() {
     async function adminShowAll(){
 
         try {
-            await fetch(`php/js_to_php.php?action=adminShowAll`, {
+            await fetch(`app.core/php/js_to_php.php?action=adminShowAll`, {
                 method: 'GET',
             })
             .then (response => {

@@ -1,7 +1,7 @@
 <div id="nav_main_top" class="nav-container d-sticky theme-light p">
 
     <div class="vm-auto d-flex-row d-flex-center px-small py-small t-center">
-        <a href="admin.php">
+        <a href="<?php core_link('admin');?>" >
             <div class="d-flex-row d-flex-center">
                 <span class="material-icons t-20 px-small">dashboard</span>
                 The Codex
@@ -24,10 +24,10 @@
         </div>
     </div>
 
-    <div id="tags" class="vm-2 d-flex-row d-flex-center px-small py-small t-center">
+    <div id="title" class="vm-2 d-flex-row d-flex-center px-small py-small t-center">
         <div class="d-flex-row d-flex-center">
             <span class="material-icons t-20 px-small">search</span>
-            Tags
+            Title
         </div>
     </div>
 

@@ -5,9 +5,9 @@ $(document).ready(function() {
     const results = document.querySelector("#results");
 
     const search_by_content = document.querySelector("#content");
-    const search_by_tags = document.querySelector("#tags");
+    const search_by_title = document.querySelector("#title");
 
-    const search_by_click_array = [search_by_content, search_by_tags];
+    const search_by_click_array = [search_by_content, search_by_title];
 
     // Auto search upon load
     search(search_bar.value, 'content');
