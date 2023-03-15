@@ -1,0 +1,10 @@
+.selected_search_param {
+    color: rgb(75, 100, 104);
+    background-color: rgb(143, 192, 199);
+    box-shadow: 0px 0px 5px inset;
+    border-radius: 13px;
+}
+
+.tile {
+    box-shadow: 0px 0px 7px inset;
+}
